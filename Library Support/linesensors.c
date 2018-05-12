@@ -30,17 +30,7 @@ int Which_Sensor(void)
 	{return FR;}
 	else if (GPIO_PORTA_DATA_R&0x08)
 	{return FL;}
-	else if(GPIO_PORTA_DATA_R&0x10)
-	{return BR;}
-	else if (GPIO_PORTA_DATA_R&0x20)
-	{return BL;}
 	else if (GPIO_PORTA_DATA_R&0x0C)
 	{return FRL;}
-	else if (GPIO_PORTA_DATA_R&0x14)
-	{return BRL;}
-	else if (GPIO_PORTA_DATA_R&0x28)
-	{return FRBR;}
-	else if (GPIO_PORTA_DATA_R&0x30)
-	{return FLBL;}	
 	else {return NON;}
 }
