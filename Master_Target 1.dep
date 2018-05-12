@@ -1,0 +1,39 @@
+Dependencies for Project 'Master', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Main.c)(0x59A32C7F)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (Library Support/tm4c123gh6pm.h)(0x51D44682)
+I (Library Support/linesensors.h)(0x59A229B6)
+I (Library Support/MotorDriver.h)(0x5997A0E4)
+I (Library Support/pwmPF.h)(0x598CDC12)
+I (Library Support/PORTS_INIT.h)(0x599DC9AE)
+I (Library Support/SensorInterface.h)(0x59917F64)
+I (Library Support/CompassInterface.h)(0x599DCB68)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\startup.s)(0x57017F68)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup.lst --xref -o .\obj\startup.o --depend .\obj\startup.d)
+F (.\Library Support\MotorDriver.c)(0x5997A1D8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\obj\motordriver.o --omf_browse .\obj\motordriver.crf --depend .\obj\motordriver.d)
+I (Library Support\MotorDriver.h)(0x5997A0E4)
+I (Library Support\pwmPF.h)(0x598CDC12)
+I (Library Support\tm4c123gh6pm.h)(0x51D44682)
+I (Library Support\PORTS_INIT.h)(0x599DC9AE)
+F (.\Library Support\MotorDriver.h)(0x5997A0E4)()
+F (.\Library Support\PORTS_INIT.c)(0x599DC9A8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\obj\ports_init.o --omf_browse .\obj\ports_init.crf --depend .\obj\ports_init.d)
+I (Library Support\PORTS_INIT.h)(0x599DC9AE)
+I (Library Support\tm4c123gh6pm.h)(0x51D44682)
+F (.\Library Support\PORTS_INIT.h)(0x599DC9AE)()
+F (.\Library Support\pwmPF.c)(0x598CDE8E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\obj\pwmpf.o --omf_browse .\obj\pwmpf.crf --depend .\obj\pwmpf.d)
+I (Library Support\pwmPF.h)(0x598CDC12)
+I (Library Support\tm4c123gh6pm.h)(0x51D44682)
+F (.\Library Support\pwmPF.h)(0x598CDC12)()
+F (.\Library Support\SensorInterface.c)(0x5991E056)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\obj\sensorinterface.o --omf_browse .\obj\sensorinterface.crf --depend .\obj\sensorinterface.d)
+I (Library Support\tm4c123gh6pm.h)(0x51D44682)
+F (.\Library Support\SensorInterface.h)(0x59917F64)()
+F (.\Library Support\tm4c123gh6pm.h)(0x51D44682)()
+F (.\Library Support\linesensors.c)(0x59A325A2)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\obj\linesensors.o --omf_browse .\obj\linesensors.crf --depend .\obj\linesensors.d)
+I (Library Support\linesensors.h)(0x59A229B6)
+I (Library Support\tm4c123gh6pm.h)(0x51D44682)
+F (.\Library Support\CompassInterface.c)(0x599E00DE)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\obj\compassinterface.o --omf_browse .\obj\compassinterface.crf --depend .\obj\compassinterface.d)
+I (Library Support\CompassInterface.h)(0x599DCB68)
+I (Library Support\tm4c123gh6pm.h)(0x51D44682)
+I (Library Support\PORTS_INIT.h)(0x599DC9AE)
+F (.\Library Support\CompassInterface.h)(0x599DCB68)()
+F (.\Library Support\linesensors.h)(0x59A229B6)()
